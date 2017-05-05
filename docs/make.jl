@@ -14,6 +14,7 @@ makedocs(
 
 if "DOCUMENTER_KEY" in keys(ENV)
     deploydocs(
-     repo = "github.com/darwindarak/VortexModel.jl.git"
+     repo = "github.com/darwindarak/VortexModel.jl.git",
+     target = "build"
     )
 end
